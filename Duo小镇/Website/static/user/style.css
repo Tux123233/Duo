@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "yezi";
+    src: url("font/yezi.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "yezi";
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#head-return {
+    width: 25px;
+}
+
+#head-name {
+    font-weight: bold;
+    position: relative;
+    top: 0px;
+    font-size: 20px;
+}
+
+#head-more {
+    position: relative;
+}
+
+#information {
+    height: 400px;
+}
+
+#information-head {
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#information-name {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+#information-data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: calc(100vw - 100px);
+    height: 80px;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+.data-card p:last-child {
+    margin-top: 10px;
+    color: gray;
+}
+
+.data-card p:first-child {
+    color: black;
+    font-weight: bold;
+}
+
+#information-introduction {
+    margin: 15px auto 0px auto;
+    height: 20px;
+    width: calc((100vw - 30px) / 2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#control {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: calc(100vw - 300px);
+    margin: auto;
+}
+
+#follow{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 54, 47);
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -3px;
+    line-height: 10px;
+}
+
+/* 感觉咋都不太好看 放名字右边也差不多  可以这样可以换个颜色*/

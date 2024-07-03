@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="zh-">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户界面</title>
+    <link rel="stylesheet" href="{% static "user/style.css" %}">
+</head>
+<body>
+    <!--顶部-->
+    <!--http://127.0.0.1:8080/user-->
+    <div id="head">
+        <!--返回-->
+        <div id="head-return">
+           <img src="{% static 'svg/return.svg' %}" alt="返回按钮" width="25px">
+        </div>
+        <span id="head-name">刘畅</span>
+        <!--设置-->
+        <div id="head-more">
+            <img src="{% static 'svg/more.svg' %}" alt="设置按钮" width="25px">
+        </div>
+    </div>
+    
+    <!--信息-->
+    <div id="information">
+        <div id="information-head">
+            <img src="{% static 'img/head.png' %}" alt="用户头像" width="150px">
+        </div>
+        <div id="information-name">
+            <span>@刘畅</span>
+            <div id="follow">关注</div>
+        </div>
+
+        <!--个人介绍-->
+        <div id="information-introduction">
+            唱, 跳, Rap, 篮球
+        </div>
+
+        <div id="information-data">
+            <div class="data-card">
+                <p id="like">29</p>
+                <p>点赞数</p>
+            </div>
+
+            <div class="data-card">
+                <p id="passage">121</p>
+                <p>文章数</p>
+            </div>
+
+            <div class="data-card">
+                <p id="age">29</p>
+                <p>年龄</p>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
